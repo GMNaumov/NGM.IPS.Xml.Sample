@@ -49,15 +49,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Blank\MetadataBrief.xml" />
-    <Content Include="Blank\Objects.xml" />
-    <Content Include="Blank\Relations.xml" />
+    <Content Include="Template\MetadataBrief.xml" />
+    <Content Include="Template\Objects.xml" />
+    <Content Include="Template\Relations.xml" />
     <Content Include="Description\MetadataBrief.xml" />
     <Content Include="Description\Objects.xml" />
     <Content Include="Description\Relations.xml" />
     <Content Include="Sample\MetaDataBrief.xml" />
     <Content Include="Sample\Objects.xml" />
     <Content Include="Sample\Relations.xml" />
+    <Content Include="TestDatasets\Single purchase item\MetaDataBrief.xml" />
+    <Content Include="TestDatasets\Single purchase item\Objects.xml" />
+    <Content Include="TestDatasets\Single purchase item\Relations.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
